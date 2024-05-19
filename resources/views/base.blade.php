@@ -57,44 +57,6 @@
     <!-- end navigation -->
     <div class="sidebar-wrapper mobile-height">
         @yield("content")
-        <!-- start feature box section  -->
-        <section id="why" class="wow animate__fadeIn bg-extra-dark-gray wow animate__fadeIn lg-padding-two-lr sm-no-padding-lr">
-            <div class="container">
-                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center">
-                    <!-- start feature box item -->
-                    <div class="col-sm-8 feature-box-1 md-margin-60px-bottom sm-margin-40px-bottom wow animate__fadeIn">
-                        <div class="d-flex align-items-center margin-15px-bottom alt-font">
-                            <h3 class="char-value letter-spacing-minus-1 text-medium-gray font-weight-300 mb-0">01.</h3>
-                            <span class="text-large line-height-22 padding-20px-left padding-20px-left w-100">Creativity.<br> Discover talent.</span>
-                        </div>
-                        <p class="w-90 lg-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry.</p>
-                        <div class="separator-line-horrizontal-medium-light3 bg-deep-pink margin-5px-top float-start"></div>
-                    </div>
-                    <!-- end feature box item -->
-                    <!-- start feature box item -->
-                    <div class="col-sm-8 feature-box-1 md-margin-60px-bottom sm-margin-40px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
-                        <div class="d-flex align-items-center margin-15px-bottom alt-font">
-                            <h3 class="char-value letter-spacing-minus-1 text-medium-gray font-weight-300 mb-0">02.</h3>
-                            <span class="text-large line-height-22 padding-20px-left w-100">Technology.<br> Expert analysis.</span>
-                        </div>
-                        <p class="w-90 lg-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry.</p>
-                        <div class="separator-line-horrizontal-medium-light3 bg-deep-pink margin-5px-top float-start"></div>
-                    </div>
-                    <!-- end feature box item -->
-                    <!-- start feature box item -->
-                    <div class="col-sm-8 feature-box-1 wow animate__fadeIn" data-wow-delay="0.4s">
-                        <div class="d-flex align-items-center margin-15px-bottom alt-font">
-                            <h3 class="char-value letter-spacing-minus-1 text-medium-gray font-weight-300 mb-0">03.</h3>
-                            <span class="text-large line-height-22 padding-20px-left w-100">Discover.<br> Explore work.</span>
-                        </div>
-                        <p class="w-90 lg-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry.</p>
-                        <div class="separator-line-horrizontal-medium-light3 bg-deep-pink margin-5px-top float-start"></div>
-                    </div>
-                    <!-- end feature box item -->
-                </div>
-            </div>
-        </section>
-        <!-- end feature box section -->
         <!-- start footer -->
         @include('footer')
         <!-- end footer -->

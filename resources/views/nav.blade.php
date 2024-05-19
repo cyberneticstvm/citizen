@@ -11,7 +11,7 @@
                 <a data-bs-toggle="dropdown" href="#" title="Surveys">Live Surveys <i class="fa-solid fa-angle-right"></i></a>
                 <ul class="dropdown-menu second-level">
                     <li class="dropdown">
-                        <a href="{{ route('index') }}" title="India Parliament Election 2024">India Parliament Election 2024</a>
+                        <a href="{{ route('survey1') }}" title="India Parliament Election 2024">India Parliament Election 2024</a>
                     </li>
                 </ul>
             </li>
