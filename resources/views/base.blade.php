@@ -3,15 +3,15 @@
 
 <head>
     <!-- title -->
-    <title>POFO – Creative Agency, Corporate and Portfolio Multi-purpose Template</title>
+    <title>{{ $title }}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
     <meta name="author" content="Cybernetics">
     <!-- description -->
-    <meta name="description" content="The Citizen.">
+    <meta name="description" content="{{ $description }}">
     <!-- keywords -->
-    <meta name="keywords" content="The Citizen">
+    <meta name="keywords" content="{{ $keywords }}">
     <!-- favicon -->
     <link rel="shortcut icon" href="{{ asset('/web/images/citizen/favicon.webp') }}">
     <!--<link rel="apple-touch-icon" href="{{ asset('/web/images/apple-touch-icon-57x57.png') }}">
