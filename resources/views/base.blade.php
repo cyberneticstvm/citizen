@@ -7,11 +7,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="author" content="ThemeZaa">
+    <meta name="author" content="Cybernetics">
     <!-- description -->
-    <meta name="description" content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos.">
+    <meta name="description" content="The Citizen.">
     <!-- keywords -->
-    <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, coming soon, faq">
+    <meta name="keywords" content="The Citizen">
     <!-- favicon -->
     <link rel="shortcut icon" href="{{ asset('/web/images/citizen/favicon.webp') }}">
     <!--<link rel="apple-touch-icon" href="{{ asset('/web/images/apple-touch-icon-57x57.png') }}">
