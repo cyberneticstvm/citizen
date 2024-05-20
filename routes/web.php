@@ -12,6 +12,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/', 'index')->name('index');
     });
     Route::prefix('/survey')->controller(WebController::class)->group(function () {
-        Route::get('/india-parliament-election-2024', 'survey1')->name('survey1');
+        Route::get('/{slug}', 'survey')->name('survey');
+        Route::post('/{slug}', 'saveSurvey')->name('survey.save');
     });
 });

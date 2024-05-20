@@ -43,7 +43,7 @@
         <!-- start logo -->
         <div class="col-12 sidenav-header">
             <div class="logo-holder">
-                <a href="index.html" class="d-inline-block logo"><img alt="Pofo" src="{{ asset('/web/images/citizen/logo.webp') }}" /></a>
+                <a href="{{ route('index') }}" class="d-inline-block logo"><img alt="Pofo" src="{{ asset('/web/images/citizen/logo.webp') }}" /></a>
             </div>
             <!-- end logo -->
             <button class="navbar-toggler mobile-toggle" type="button" id="mobileToggleSidenav">
@@ -72,6 +72,7 @@
     <script type="text/javascript" src="{{ asset('/web/js/theme-vendors.min.js') }}"></script>
     <!-- setting -->
     <script type="text/javascript" src="{{ asset('/web/js/main.js') }}"></script>
+    @include('message')
 </body>
 
 </html>

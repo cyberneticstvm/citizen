@@ -17876,3 +17876,7 @@ footer .instafeed-grid.gutter-extra-large {
     padding: 40px;
     display: none;
 }
+
+.radio {
+    height: 25px !important;
+}
