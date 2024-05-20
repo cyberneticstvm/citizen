@@ -46,6 +46,7 @@
                         </div>
                     </div>
                     {{ html()->form()->close() }}
+                    <div class="text-medium margin-20px-bottom d-block alt-font">Total Polls: {{ 3750 + $count }}</div>
                 </div>
             </div>
         </div>

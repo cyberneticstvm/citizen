@@ -23,9 +23,10 @@ class WebController extends Controller
     {
         $survey = Survey::where('name', str_replace('-', ' ', $slug))->firstOrFail();
         $title = $survey->name;
+        $count = Answer::where('survey_id', $survey->id)->count('id');
         $description = "We do surveys, assessments, polls and more for you";
         $keywords = "Surveys, Assesments Polls";
-        return view('survey.index', compact('title', 'description', 'keywords', 'survey'));
+        return view('survey.index', compact('title', 'description', 'keywords', 'survey', 'count'));
     }
 
     function saveSurvey(Request $request)
