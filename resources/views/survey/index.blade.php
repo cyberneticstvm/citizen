@@ -29,10 +29,16 @@
                             <small class="text-danger">{{ $errors->first('name') }}</small>
                             @enderror
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             {{ html()->email('email')->class('bg-transparent border-color-medium-dark-gray medium-input required')->placeholder('Email *')->required() }}
                             @error('email')
                             <small class="text-danger">{{ $errors->first('email') }}</small>
+                            @enderror
+                        </div>
+                        <div class="col-md-6">
+                            {{ html()->number('age', '', '18', '100', 1)->class('bg-transparent border-color-medium-dark-gray medium-input required')->placeholder('Age *')->required() }}
+                            @error('age')
+                            <small class="text-danger">{{ $errors->first('age') }}</small>
                             @enderror
                         </div>
                         <div class="col-md-6">

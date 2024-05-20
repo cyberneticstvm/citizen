@@ -35,12 +35,14 @@ class WebController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'gender' => 'required',
+            'age' => 'required|numeric|min:18|max:100',
         ]);
         try {
             $user = User::where('email', $request->email)->first();
             if (!$user) :
                 $user = User::create([
                     'name' => $request->name,
+                    'age' => $request->age,
                     'email' => $request->email,
                     'gender' => $request->gender,
                     'password' => Hash::make('password'),
