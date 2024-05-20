@@ -27,7 +27,7 @@
                     <h3 class="char-value letter-spacing-minus-1 text-medium-gray font-weight-300 mb-0">01.</h3>
                     <span class="text-large line-height-22 padding-20px-left padding-20px-left w-100">Creativity.<br> Discover talent.</span>
                 </div>
-                <p class="w-90 lg-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry.</p>
+                <p class="w-90 lg-w-100">Empowering communities to achieve sustainable development and social justice through innovative surveys and community engagement. We envision a world where every individual has the opportunity to thrive and contribute to a just society.</p>
                 <div class="separator-line-horrizontal-medium-light3 bg-deep-pink margin-5px-top float-start"></div>
             </div>
             <!-- end feature box item -->
@@ -37,7 +37,7 @@
                     <h3 class="char-value letter-spacing-minus-1 text-medium-gray font-weight-300 mb-0">02.</h3>
                     <span class="text-large line-height-22 padding-20px-left w-100">Technology.<br> Expert analysis.</span>
                 </div>
-                <p class="w-90 lg-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry.</p>
+                <p class="w-90 lg-w-100">Transforming lives through innovative technology solutions that simplify and enhance everyday experiences. We aim to be a global leader in creating smart, sustainable, and connected communities.</p>
                 <div class="separator-line-horrizontal-medium-light3 bg-deep-pink margin-5px-top float-start"></div>
             </div>
             <!-- end feature box item -->
@@ -47,7 +47,7 @@
                     <h3 class="char-value letter-spacing-minus-1 text-medium-gray font-weight-300 mb-0">03.</h3>
                     <span class="text-large line-height-22 padding-20px-left w-100">Discover.<br> Explore work.</span>
                 </div>
-                <p class="w-90 lg-w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry.</p>
+                <p class="w-90 lg-w-100">Fostering a culture of excellence and inclusivity where students are inspired to reach their full potential. We envision a future where education is accessible, personalized, and prepares individuals for a rapidly changing world.</p>
                 <div class="separator-line-horrizontal-medium-light3 bg-deep-pink margin-5px-top float-start"></div>
             </div>
             <!-- end feature box item -->
