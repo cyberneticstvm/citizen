@@ -19,7 +19,12 @@
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="{{ route('index') }}" title="contact">Get In touch</a>
+                <a data-bs-toggle="dropdown" href="#" title="contact">Get In Touch <i class="fa-solid fa-angle-right"></i></a>
+                <ul class="dropdown-menu second-level">
+                    <li class="dropdown">
+                        <a href="mailto:contact@thecitizen.live" title="Get In Touch">contact@thecitizen.live</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <div class="side-left-menu-close close-side"></div>
