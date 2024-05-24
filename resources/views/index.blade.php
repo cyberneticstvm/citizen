@@ -8,7 +8,7 @@
                 <div class="alt-font text-extra-dark-gray text-uppercase font-weight-700 letter-spacing-minus-2 title-large">We create the trend</div>
                 <div class="separator-line-horrizontal-full w-100 margin-35px-tb md-margin-25px-tb sm-margin-20px-tb bg-extra-dark-gray"></div>
                 <span class="text-dark-gray text-extra-large font-weight-300 margin-35px-bottom d-block md-margin-25px-bottom sm-margin-15px-bottom">We design surveys that believe in the power of great ideas.</span>
-                <a href="{{ route('index') }}" class="btn btn-dark-gray btn-medium">Contact Now</a>
+                <a href="{{ route('contact') }}" class="btn btn-dark-gray btn-medium">Contact Now</a>
             </div>
             <div class="down-section text-center">
                 <a href="#why" class="section-link up-down-ani"><i class="ti-mouse icon-small bounce text-deep-pink"></i></a>
