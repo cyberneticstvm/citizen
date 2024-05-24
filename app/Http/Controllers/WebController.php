@@ -19,6 +19,14 @@ class WebController extends Controller
         return view('index', compact('title', 'description', 'keywords'));
     }
 
+    function contact()
+    {
+        $title = "The Citizen - Contact Us";
+        $description = "We do surveys, assessments, polls and more for you";
+        $keywords = "Surveys, Assesments Polls";
+        return view('contact', compact('title', 'description', 'keywords'));
+    }
+
     function survey($slug)
     {
         $survey = Survey::where('name', str_replace('-', ' ', $slug))->firstOrFail();
