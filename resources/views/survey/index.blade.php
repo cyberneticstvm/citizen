@@ -1,7 +1,7 @@
 @extends("base")
 @section("content")
 <!-- start feature box section -->
-<section class="p-0 wow animate__fadeIn bg-extra-dark-gray">
+<!-- <section class="p-0 wow animate__fadeIn bg-extra-dark-gray">
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="col cover-background md-h-500px sm-h-350px wow animate__fadeIn" style="background-image:url({{ asset('/web/images/citizen/survey/survey1.svg') }});">
@@ -57,9 +57,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- end feature box section -->
-<section class="wow animate__fadeIn">
+<!-- <section class="wow animate__fadeIn">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-12 col-md-12 last-paragraph-no-margin">
@@ -69,5 +69,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 @endsection
